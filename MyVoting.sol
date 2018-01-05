@@ -46,7 +46,6 @@ contract MyVoting{
                 return true;
             }
         }
-
         return false;
     }
 }
