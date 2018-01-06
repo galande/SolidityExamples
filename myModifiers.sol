@@ -7,4 +7,8 @@ contract myModifiers{
         require(msg.sender == owner);
         _;
     }
+    
+    function myModifiers(){
+        owner = msg.sender;
+    }
 }
